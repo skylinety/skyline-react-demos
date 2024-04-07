@@ -1,0 +1,13 @@
+// 本示例图片sprite330*90
+#sprite-image {
+    background: url("./sprite.png") 0px 0px;
+    animation: play 0.8s steps(4) infinite;
+    height: 90px;
+    width: 82.5px;
+    // 330 / 4
+}
+@keyframes play {
+    100% {
+        background-position: -330px;
+    }
+}
